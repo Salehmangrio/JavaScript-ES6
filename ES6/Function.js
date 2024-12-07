@@ -14,3 +14,22 @@ const greet = (name) => {
 }
 
 greet("Saleh");
+
+
+
+// Immediately Invoked Function Expression Called here
+(function (a){
+    console.log("Anonymous Function : Also Immediately Invoked Function"); 
+})
+();
+
+(function (a,b){ 
+    console.log("Anonumous Function of Parameter:", a,b);
+})
+("Saleh","Mangrio");
+
+
+
+
+
+
